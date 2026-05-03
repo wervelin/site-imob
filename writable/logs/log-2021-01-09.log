@@ -1,0 +1,324 @@
+CRITICAL - 2021-01-09 10:51:53 --> Undefined index: id_login
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->edit('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 10:53:24 --> Undefined index: id_login
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->edit('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 10:54:04 --> Undefined variable: link
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\footer.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(175): view('templates/foote...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->edit('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 10:56:26 --> Unknown column 'id_login' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `empresa...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(202): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-09 10:57:21 --> Unknown column 'id_login' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `empresa...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(203): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-09 10:58:18 --> Unknown column 'id_login' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `empresa...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(203): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-09 10:59:23 --> Unknown column 'id_login' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `empresa...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(203): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-09 11:01:27 --> Unknown column 'id_login' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `empresa...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(203): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-09 11:02:35 --> Unknown column 'id_login' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `empresa...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `empresa...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `empresa...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `empresa...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(203): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-09 11:16:43 --> Undefined variable: ufs
+#0 C:\xampp\htdocs\nxgestao\app\Views\empresas\form.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('empresas/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(159): view('empresas/form', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 11:16:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Views\empresas\show.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('empresas/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(159): view('empresas/show', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 11:17:54 --> Undefined index: login
+#0 C:\xampp\htdocs\nxgestao\app\Views\empresas\show.php(295): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 295, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('empresas/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(159): view('empresas/show', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 11:19:10 --> Table 'nxgestao.logins' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(157): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-09 11:19:18 --> Column 'id_empresa' in where clause is ambiguous
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(157): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-09 11:19:31 --> Undefined variable: empresa
+#0 C:\xampp\htdocs\nxgestao\app\Views\empresas\show.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('empresas/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(160): view('empresas/show', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 11:19:50 --> Undefined index: login
+#0 C:\xampp\htdocs\nxgestao\app\Views\empresas\show.php(295): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 295, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('empresas/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(162): view('empresas/show', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 11:21:35 --> Undefined variable: empresa
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->show('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 11:46:10 --> Undefined property: App\Controllers\Admin::$link
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Admin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Admin->relatorioRelacaoDeEmpresas()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 11:48:25 --> Undefined variable: empresa
+#0 C:\xampp\htdocs\nxgestao\app\Views\admin\relatorios\relacao_de_empresas.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('admin/relatorio...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Admin.php(53): view('admin/relatorio...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Admin->relatorioRelacaoDeEmpresas()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 11:50:30 --> Undefined index: xEnd
+#0 C:\xampp\htdocs\nxgestao\app\Views\admin\relatorios\relacao_de_empresas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('admin/relatorio...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Admin.php(53): view('admin/relatorio...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Admin->relatorioRelacaoDeEmpresas()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 12:09:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(57): App\Models\ControleDeAcessoModel->verificaPermissao('historico_de_ve...')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->index()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-09 12:40:17 --> syntax error, unexpected '^', expecting ';' or '{'
+#0 C:\xampp\htdocs\nxgestao\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('pagamentosDaEmp...')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('pagamentosDaEmp...')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:47:33 --> Undefined property: App\Controllers\PagamentosDaEmpresa::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:48:28 --> Undefined property: App\Controllers\PagamentosDaEmpresa::$modulo
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:48:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(25): App\Models\ControleDeAcessoModel->verificaPermissao('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-09 12:49:05 --> Undefined property: App\Controllers\PagamentosDaEmpresa::$link
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:49:28 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\nxgestao\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('pagamentosDaEmp...')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('pagamentosDaEmp...')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:49:34 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\nxgestao\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('pagamentosDaEmp...')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('pagamentosDaEmp...')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:49:39 --> Undefined property: App\Controllers\PagamentosDaEmpresa::$id_empresa
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:49:52 --> Too few arguments to function App\Controllers\PagamentosDaEmpresa::index(), 0 passed in C:\xampp\htdocs\nxgestao\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-09 12:50:00 --> Undefined variable: tid_empresa
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 12:50:07 --> Undefined variable: id_empresa
+#0 C:\xampp\htdocs\nxgestao\app\Views\admin\pagamentos_da_empresa\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('admin/pagamento...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(43): view('admin/pagamento...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->index('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 12:51:16 --> Undefined variable: link
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\footer.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDoCliente.php(47): view('templates/foote...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDoCliente->create('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDoCliente))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 12:57:31 --> Undefined variable: id_empresa
+#0 C:\xampp\htdocs\nxgestao\app\Views\admin\pagamentos_da_empresa\create.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('admin/pagamento...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\PagamentosDaEmpresa.php(67): view('admin/pagamento...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->create('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-09 13:00:49 --> Too few arguments to function App\Controllers\PagamentosDaEmpresa::store(), 0 passed in C:\xampp\htdocs\nxgestao\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\PagamentosDaEmpresa->store()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagamentosDaEmpresa))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

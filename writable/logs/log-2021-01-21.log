@@ -1,0 +1,221 @@
+CRITICAL - 2021-01-21 10:51:20 --> Call to undefined method App\Controllers\Inicio::verificaPermissao()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-21 10:51:51 --> Undefined variable: json
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->autenticar()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 10:59:35 --> Call to undefined method App\Controllers\Inicio::verificaPermissao()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-21 10:59:51 --> Call to undefined method App\Controllers\Inicio::verificaPermissao()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-21 11:11:43 --> Undefined property: App\Controllers\OrdemDeServico::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\OrdemDeServico.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\OrdemDeServico->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdemDeServico))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 11:13:14 --> Undefined property: App\Controllers\Painel::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->transmitir()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 11:15:12 --> Undefined index: controle_fiscal
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\ControleFiscal.php(46): App\Models\ControleDeAcessoModel->verificaPermissao('controle_fiscal')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ControleFiscal->nfe()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControleFiscal))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 11:16:40 --> Undefined variable: controle_de_acesso
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(143): view('templates/heade...')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->usuarios()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-21 11:18:29 --> Undefined variable: controle_de_acesso
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(175): view('templates/heade...')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-21 11:19:14 --> Undefined index: gerar_ordem_de_servico
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 195, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(181): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 11:19:31 --> Undefined property: App\Controllers\ConfigDaConta::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\ConfigDaConta.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ConfigDaConta->edit()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigDaConta))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 11:20:41 --> Undefined property: App\Controllers\ConfigDaEmpresa::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\ConfigDaEmpresa.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ConfigDaEmpresa->edit()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigDaEmpresa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 11:21:40 --> Undefined property: App\Controllers\ConfigNFeNFCe::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\ConfigNFeNFCe.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ConfigNFeNFCe->edit()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigNFeNFCe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 12:13:46 --> Undefined index: gerar_ordem_de_servico
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 195, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(181): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 12:44:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\nxgestao\app\Controllers\Clientes.php on line 68
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Clientes.php(68): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-21 13:10:35 --> Undefined index: vendas
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(57): App\Models\ControleDeAcessoModel->verificaPermissao('vendas')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Vendas->__construct()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-21 13:58:26 --> Undefined variable: controle_de_acesso
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\InventarioDoEstoque.php(294): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\InventarioDoEstoque->listaProdutos('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventarioDoEstoque))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-21 15:09:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Inicio.php(36): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-21 15:45:57 --> Undefined index: gerar_ordem_de_servico
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 195, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(184): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 15:46:22 --> Undefined index: ordens_de_servicos
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 216, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(184): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 15:46:41 --> Undefined index: controle_fiscal
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(745): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 745, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(184): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 17:08:12 --> Undefined index: gerar_ordem_de_servico
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(1650): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 1650, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(220): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->edit('7')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-21 17:13:10 --> Unknown column 'id_controle_de_acesso' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `login` ...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` ...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` ...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `login` ...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(247): CodeIgniter\Model->update()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->store()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-21 17:14:24 --> Unknown column 'id_controle_de_acesso' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `login` ...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` ...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` ...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `login` ...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(248): CodeIgniter\Model->update()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->store()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-21 17:54:45 --> Undefined index: id_controle_de_acesso_do_usuario_selecionado
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(1369): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 1369, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(225): view('login/form')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->edit('8')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

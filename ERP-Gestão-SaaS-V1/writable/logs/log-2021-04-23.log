@@ -1,0 +1,42 @@
+CRITICAL - 2021-04-23 16:07:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Inicio.php(49): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-23 16:15:31 --> Undefined property: App\Controllers\Empresas::$controle_de_acesso
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Empresas.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 269, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Empresas->store()
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-23 16:54:38 --> Table 'sistema_saas.configuracoes' doesn't exist
+#0 C:\xampp\htdocs\projeto-sistema-ml\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Configuracoes.php(50): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Configuracoes->edit()
+#7 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracoes))
+#8 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-23 16:54:59 --> Table 'sistema_saas.configuracoes' doesn't exist
+#0 C:\xampp\htdocs\projeto-sistema-ml\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Login.php(45): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

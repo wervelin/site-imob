@@ -1,0 +1,532 @@
+CRITICAL - 2021-01-25 08:48:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 08:51:07 --> Undefined property: App\Controllers\NFe::$id_empresa
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 08:54:37 --> Undefined property: App\Controllers\NFe::$cliente_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 08:58:32 --> Class 'App\Controllers\Make' not found
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(448): App\Controllers\NFe->montaXml(Array, Array, Array, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 08:59:21 --> Class 'App\Controllers\stdClass' not found
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(457): App\Controllers\NFe->montaXml(Array, Array, Array, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 08:59:41 --> Undefined index: natureza_da_operacao
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(459): App\Controllers\NFe->montaXml(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 09:00:46 --> Call to undefined function App\Controllers\format()
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(459): App\Controllers\NFe->montaXml(Array, Array, Array, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 09:02:02 --> Undefined index: id_transportadora
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 319, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 09:34:06 --> Undefined variable: controle_de_acesso
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(21): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->index()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 09:36:25 --> Invalid file: transportadoras/index.php
+#0 C:\xampp\htdocs\nxgestao\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transportadoras...')
+#1 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('transportadoras...', Array, true)
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(43): view('transportadoras...')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->index()
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-25 13:19:35 --> Invalid file: transportadoras/index.php
+#0 C:\xampp\htdocs\nxgestao\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transportadoras...')
+#1 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('transportadoras...', Array, true)
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(43): view('transportadoras...')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->index()
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-25 13:21:40 --> Undefined variable: link
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\footer.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(44): view('templates/foote...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-25 13:28:08 --> Undefined variable: link
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\footer.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(44): view('templates/foote...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-25 13:29:42 --> Undefined variable: link
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\footer.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(44): view('templates/foote...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-25 13:39:05 --> Undefined variable: ufs
+#0 C:\xampp\htdocs\nxgestao\app\Views\transportadoras\form.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('transportadoras...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(81): view('transportadoras...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->create()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-25 14:10:03 --> Class 'App\TransportadoraModel' not found
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Transportadoras->__construct()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 14:10:32 --> Class 'App\TransportadoraModel' not found
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Transportadoras->__construct()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 14:10:49 --> Undefined index: id_transportadora
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->store()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 14:11:06 --> Unknown column 'xNome' in 'field list'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tr...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(135): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->store()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 14:12:43 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`transportadoras`, CONSTRAINT `transportadoras_id_empresa_foreign` FOREIGN KEY (`id_empresa`) REFERENCES `empresas` (`id_empresa`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tr...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(135): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->store()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 14:24:46 --> Undefined index: transportadoras
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(369): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 369, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Transportadoras.php(137): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Transportadoras->edit('2')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transportadoras))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 15:27:46 --> Undefined property: App\Controllers\Vendas::$transportadora_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 186, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 15:58:10 --> Undefined index: id_transportadora
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 319, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 15:59:40 --> Undefined variable: dados_da_nota
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(452): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 452, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 16:02:13 --> Undefined property: NFePHP\NFe\Make::$getXml
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(464): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:02:20 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(99): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(464): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 16:04:42 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(56): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(465): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 16:05:17 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(96): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(462): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 16:05:21 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(96): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(462): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 16:07:09 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(100): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(467): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-25 16:10:28 --> Undefined property: App\Controllers\NFe::$transportadora_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 325, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(462): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:11:16 --> Undefined property: App\Controllers\NFe::$id_contador
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 329, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(465): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:11:40 --> Call to undefined function App\Controllers\removeMascaras()
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(464): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 16:11:55 --> Undefined property: App\Controllers\NFe::$unidade_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 354, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(462): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:14:08 --> Undefined property: App\Controllers\Vendas::$unidade_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 16:14:52 --> Class 'App\Models\UnidadeModel' not found
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Vendas->__construct()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 16:20:24 --> Undefined index: nome
+#0 C:\xampp\htdocs\nxgestao\app\Views\vendas\show.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('vendas/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(230): view('vendas/show')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-25 16:23:47 --> Undefined variable: dados_da_nota
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 392, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:24:08 --> Undefined index: infomacoes_para_fisco
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 392, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:24:23 --> Undefined index: infomacoes_para_fisco
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 392, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:24:33 --> Undefined index: infomacoes_para_fisco
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 392, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 16:24:39 --> Undefined index: informacoes_para_fisco
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 392, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-25 17:00:37 --> Call to undefined method App\Controllers\NFe::preparaConfigJson()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 17:01:28 --> Call to undefined method App\Controllers\NFe::assinaXML()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 17:01:51 --> file_get_contents(C:\xampp\htdocs\nxgestao\writable\uploads/certificados/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 455, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(455): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(513): App\Controllers\NFe->assinaXML(Array, '{"atualizacao":...', '<?xml version="...')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-25 17:02:46 --> Unable to read certificate, get follow error: (error:23076071:PKCS12 routines:PKCS12_parse:mac verify failure)
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-common\src\Certificate.php(63): NFePHP\Common\Exception\CertificateException::unableToRead()
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(461): NFePHP\Common\Certificate::readPfx('0\x80\x02\x01\x030\x80\x06\t*\x86H\x86\xF7\r...', 'tiao1378')
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(513): App\Controllers\NFe->assinaXML(Array, '{"atualizacao":...', '<?xml version="...')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-25 17:03:34 --> Call to undefined method App\Controllers\NFe::detalhaRejeicao()
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(513): App\Controllers\NFe->assinaXML(Array, '{"atualizacao":...', '<?xml version="...')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 17:06:58 --> Call to undefined method App\Controllers\NFe::enviaLoteParaSefaz()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 17:07:31 --> Call to undefined method App\Controllers\NFe::consultaReciboNaSefaz()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 17:07:46 --> Call to undefined method App\Controllers\NFe::protocolaXmlNaSefaz()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-25 17:07:59 --> Call to undefined method App\Controllers\NFe::detalhaRejeicao()
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(585): App\Controllers\NFe->protocolaXmlNaSefaz('<NFe xmlns="htt...', '<?xml version="...')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 17:24:11 --> Undefined property: App\Controllers\NFe::$nfe_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(619): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 619, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 17:24:53 --> Undefined variable: dados_da_nota
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(625): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 625, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 17:25:47 --> Undefined index: valor_da_nota
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(625): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 625, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 17:25:56 --> Undefined index: valor_a_pagar
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(625): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 625, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-25 17:26:13 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`nfes`, CONSTRAINT `nfes_id_venda_foreign` FOREIGN KEY (`id_venda`) REFERENCES `vendas` (`id_venda`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `nf...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nf...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nf...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nf...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(632): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 17:26:41 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`nfes`, CONSTRAINT `nfes_id_cliente_foreign` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id_cliente`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `nf...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nf...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nf...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nf...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\NFe.php(633): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 17:28:56 --> Unknown column 'id_contador' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `xml`\nFR...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `xml`\nFR...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `xml`\nFR...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `xml`\nFR...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(45): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('1', '5')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 17:28:59 --> Unknown column 'id_contador' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `xml`\nFR...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `xml`\nFR...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `xml`\nFR...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `xml`\nFR...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(45): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('1', '5')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 18:36:33 --> Unknown column 'id_contador' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `xml`\nFR...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `xml`\nFR...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `xml`\nFR...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `xml`\nFR...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(45): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('1', '5')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 18:36:49 --> Unknown column 'id_contador' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `xml`\nFR...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `xml`\nFR...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `xml`\nFR...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `xml`\nFR...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(45): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('1', '5')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-25 22:12:56 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\nxgestao\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\nxgestao\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\nxgestao\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\nxgestao\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,41 @@
+CRITICAL - 2020-09-09 09:04:11 --> Undefined property: App\Controllers\CategoriasDosProdutos::$links
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\CategoriasDosProdutos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\CategoriasDosProdutos->create()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriasDosProdutos))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 09:08:51 --> Undefined property: App\Controllers\CategoriasDosProdutos::$links
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\CategoriasDosProdutos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\CategoriasDosProdutos->edit('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriasDosProdutos))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 09:10:35 --> Undefined variable: id_contador
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\CategoriasDosProdutos.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\CategoriasDosProdutos->delete('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriasDosProdutos))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-09 09:18:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Views\relatorio_dre\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('relatorio_dre/i...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\RelatorioDRE.php(79): view('relatorio_dre/i...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\RelatorioDRE->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelatorioDRE))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-09 09:23:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Views\relatorios\estoque\produtos.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('relatorios/esto...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Relatorios.php(275): view('relatorios/esto...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Relatorios->produtos()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorios))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

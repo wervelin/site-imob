@@ -1,0 +1,75 @@
+CRITICAL - 2020-08-06 09:53:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Views\food\mesa.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 274, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('food/mesa', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Food.php(178): view('food/mesa', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Food->mesa('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-06 10:45:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Views\food\mesa.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 274, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('food/mesa', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Food.php(178): view('food/mesa', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Food->mesa('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-06 10:54:56 --> Undefined property: stdClass::$food
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 155, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(93): view('login/form', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->edit('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-06 11:16:26 --> Undefined index: mesas
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->store()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-06 11:42:53 --> Undefined property: stdClass::$food
+#0 C:\xampp\htdocs\nxgestao\app\Views\login\form.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 150, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Login.php(93): view('login/form', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Login->edit('1')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-06 11:54:45 --> Undefined index: menu
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\footer.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Food.php(66): view('templates/foote...')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Food->selecionarMesa()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-06 12:00:55 --> Undefined property: stdClass::$food
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\navbar_tema_1.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(62): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Inicio.php(135): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

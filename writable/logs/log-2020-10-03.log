@@ -1,0 +1,70 @@
+CRITICAL - 2020-10-03 11:22:34 --> Undefined property: App\Controllers\NFCe::$venda_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-03 11:23:41 --> Undefined property: App\Controllers\NFCe::$produto_da_venda_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-03 11:27:35 --> Uncaught ErrorException: Array to string conversion in C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php:161
+Stack trace:
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(194): App\Controllers\NFCe->montaXML(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-03 11:27:56 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(196): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-03 11:29:11 --> Uncaught ErrorException: Array to string conversion in C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php:161
+Stack trace:
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(194): App\Controllers\NFCe->montaXML(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-03 11:32:30 --> Call to a member function getElementsByTagName() on null
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(441): NFePHP\NFe\Make->checkNFeKey(Object(NFePHP\Common\DOMImproved))
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#2 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(196): NFePHP\NFe\Make->getXML()
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-03 11:37:18 --> Uncaught ErrorException: Array to string conversion in C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php:161
+Stack trace:
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(194): App\Controllers\NFCe->montaXML(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('5')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

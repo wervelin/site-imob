@@ -1,0 +1,14 @@
+CRITICAL - 2023-10-28 00:06:52 --> Undefined index: tipo_da_comissao
+#0 C:\xampp\htdocs\erp-startdevbr.local\app\Controllers\VendaRapida.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(914): App\Controllers\VendaRapida->addProdutoDaVenda()
+#2 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendaRapida))
+#3 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\erp-startdevbr.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-28 00:06:59 --> Undefined index: tipo_da_comissao
+#0 C:\xampp\htdocs\erp-startdevbr.local\app\Controllers\VendaRapida.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(914): App\Controllers\VendaRapida->addProdutoDaVenda()
+#2 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendaRapida))
+#3 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\erp-startdevbr.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

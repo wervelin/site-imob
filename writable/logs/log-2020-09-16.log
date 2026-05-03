@@ -1,0 +1,44 @@
+CRITICAL - 2020-09-16 11:42:02 --> unlink(C:\xampp\htdocs\nxgestao\writable\debugbar/debugbar_1600109413.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\nxgestao\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1600267321, 20)
+#3 C:\xampp\htdocs\nxgestao\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\nxgestao\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\nxgestao\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-16 14:36:02 --> Undefined property: App\Controllers\Entregadores::$vendedor_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Entregadores.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Entregadores->store()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregadores))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-16 15:33:55 --> Undefined property: App\Controllers\Food::$entrega_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Food.php(512): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 512, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Food->entregas()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-16 15:34:59 --> Class 'App\Models\EntregaModel' not found
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Food->__construct()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-16 15:50:10 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`entregadores`, CONSTRAINT `entregadores_id_contador_foreign` FOREIGN KEY (`id_contador`) REFERENCES `contadores` (`id_contador`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `en...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Entregadores.php(100): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Entregadores->store()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entregadores))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

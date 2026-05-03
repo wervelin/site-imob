@@ -1,0 +1,92 @@
+CRITICAL - 2023-09-24 09:14:27 --> Unknown database 'sistema_saas'
+#0 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Login.php(45): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-24 09:32:35 --> Undefined variable: clientes
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(71): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-24 09:32:56 --> Undefined variable: nome_dos_meses
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(71): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-24 09:41:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-24 10:24:17 --> Class 'App\Models\NFCeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Pdv->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:24:25 --> Class 'App\Models\NFeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Vendas->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:24:37 --> Class 'App\Models\OrdemDeServicoModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:33:36 --> Class 'App\Models\NFeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Vendas->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:33:59 --> Class 'App\Models\NFeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Vendas->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:39:27 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Vendas->show('1')
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:42:38 --> Class 'App\Models\OrdemDeServicoModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:47:20 --> Class 'App\Models\NFCeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Pdv->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-24 10:47:49 --> Class 'App\Models\NFCeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Pdv->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

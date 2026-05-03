@@ -1,0 +1,42 @@
+CRITICAL - 2020-10-19 11:04:50 --> Undefined property: App\Controllers\Orcamentos::$session
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Orcamentos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Orcamentos.php(65): App\Controllers\Orcamentos->verificaPermissao('orcamentos')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Orcamentos->index()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcamentos))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 11:13:07 --> Class 'App\Controllers\ContoleDeAcessoModel' not found
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Pedidos->__construct()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 11:55:37 --> Call to undefined function App\Controllers\sesssion()
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(886): App\Controllers\Inicio->__construct()
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 14:08:16 --> Undefined property: stdClass::$estoque_inventario
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\navbar.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 272, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(48): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Inicio.php(47): view('templates/heade...')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-19 14:09:54 --> Undefined property: stdClass::$financeiro_dre
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\navbar.php(323): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 323, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(48): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\Inicio.php(47): view('templates/heade...')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

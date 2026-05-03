@@ -1,0 +1,9 @@
+CRITICAL - 2020-06-04 10:33:51 --> file_put_contents(C:\xampp\htdocs\nxgestao\writable\/put_xmls/17200607296786000185550010000010201594018261.xml): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 407, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\ControleFiscal.php(407): file_put_contents('C:\\xampp\\htdocs...', '<?xml version="...')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ControleFiscal->baixaXMLS('2020-06-01', '2020-06-04')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControleFiscal))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nxgestao\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

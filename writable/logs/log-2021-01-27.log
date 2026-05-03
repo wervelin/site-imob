@@ -1,0 +1,950 @@
+CRITICAL - 2021-01-27 09:42:58 --> Undefined variable: controle_de_acesso
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\InventarioDoEstoque.php(292): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\InventarioDoEstoque->listaProdutos('1')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventarioDoEstoque))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-27 09:46:44 --> Undefined variable: controle_de_acesso
+#0 C:\xampp\htdocs\nxgestao\app\Views\templates\sidebar.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao\app\Controllers\InventarioDoEstoque.php(202): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\InventarioDoEstoque->edit('2')
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventarioDoEstoque))
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-27 10:15:26 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:26 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:27 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:27 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:28 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:28 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:29 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:29 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:30 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:30 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:31 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:31 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:32 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:32 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:33 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:33 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:34 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:35 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:35 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:35 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:36 --> Table 'nxgestao.painel' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:36 --> Table 'nxgestao.historico_de_senhas' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `senha`\n...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `senha`\n...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `senha`\n...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `senha`\n...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(387): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(226): CodeIgniter\Model->find()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-27 10:15:37 --> Table 'nxgestao.controle_de_acesso' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(102): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-27 10:15:37 --> Table 'nxgestao.controle_de_acesso' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(102): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-27 10:15:38 --> Table 'nxgestao.controle_de_acesso' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(102): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-27 10:15:38 --> Table 'nxgestao.controle_de_acesso' doesn't exist
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(102): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#9 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-27 10:15:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:15:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(198): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(215): App\Models\ControleDeAcessoModel->verificaPermissao('abrir_painel')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaQuatroUltimasSenhas()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-27 10:16:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 10:16:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 10:18:30 --> Undefined index: xApp
+#0 C:\xampp\htdocs\nxgestao\app\Views\food\painel\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('food/painel/ind...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(61): view('food/painel/ind...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:18:37 --> Undefined index: nome_do_app
+#0 C:\xampp\htdocs\nxgestao\app\Views\food\painel\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('food/painel/ind...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(61): view('food/painel/ind...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:20:33 --> Undefined index: xApp
+#0 C:\xampp\htdocs\nxgestao\app\Views\food\painel\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('food/painel/ind...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(68): view('food/painel/ind...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 10:22:00 --> Undefined variable: session
+#0 C:\xampp\htdocs\nxgestao\app\Views\food\painel\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('food/painel/ind...', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Painel.php(68): view('food/painel/ind...', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Painel->index()
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-27 11:53:21 --> Undefined property: App\Controllers\NFeAvulsa::$permissao
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFeAvulsa.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFeAvulsa->entrada()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFeAvulsa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-27 11:53:31 --> Undefined property: App\Controllers\NFeAvulsa::$controle_de_acesso_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFeAvulsa.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFeAvulsa->entrada()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFeAvulsa))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

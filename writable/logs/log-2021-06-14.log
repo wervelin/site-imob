@@ -1,0 +1,504 @@
+CRITICAL - 2021-06-14 13:13:26 --> Table 'sistema_saas.id_autorizacao' doesn't exist
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(68): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->autenticar()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-14 13:16:23 --> Table 'sistema_saas.id_autorizacao' doesn't exist
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(68): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->autenticar()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-14 13:44:08 --> Invalid file: cadastro_de_autorizacao_demo/cadastro.php
+#0 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro_de_aut...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#2 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(11): view('cadastro_de_aut...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 13:44:26 --> Invalid file: cadastro_de_autorizacao_demo/create.php
+#0 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro_de_aut...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#2 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(11): view('cadastro_de_aut...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 13:46:36 --> Undefined variable: configuracao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\create.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(11): view('cadastro_de_aut...')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 13:46:37 --> Undefined variable: configuracao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\create.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(11): view('cadastro_de_aut...')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 13:48:13 --> Unknown column 'id_configuracao' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(22): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-14 13:48:32 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\create.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(24): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 13:49:38 --> Undefined variable: caixas
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\create.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(24): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 13:54:36 --> Undefined variable: ufs
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\create.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(24): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 14:12:50 --> Class 'App\CadastroDeAutorizacaoDemoModel' not found
+#0 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(886): App\Controllers\CadastroDeAutorizacaoDemo->__construct()
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 14:19:20 --> Too few arguments to function App\Controllers\CadastroDeAutorizacaoDemo::index(), 0 passed in C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index()
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 14:21:19 --> Invalid file: cadastro_de_autorizacao_demo/index.php
+#0 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro_de_aut...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#2 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 14:21:58 --> Undefined variable: configuracao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 14:22:20 --> Undefined variable: ufs
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 14:25:27 --> Undefined index: o_que_mais_define_meu_negocio
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 14:25:28 --> Undefined index: o_que_mais_define_meu_negocio
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 14:25:28 --> Undefined index: o_que_mais_define_meu_negocio
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 14:25:29 --> Undefined index: o_que_mais_define_meu_negocio
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(48): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->index('20210614')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 20:23:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(49): view('login/index', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:38:51 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:38:55 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:39:48 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:41:16 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:41:40 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:42:30 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:45:58 --> Undefined variable: id_login
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 21:46:51 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:49:13 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:49:14 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:50:20 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 21:50:21 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\form.php(1757): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1757, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/form', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(205): view('login/form')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:24:48 --> Undefined index: valor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:24:49 --> Undefined index: valor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:24:50 --> Undefined index: valor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:24:50 --> Undefined index: valor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 22:29:54 --> Unknown column 'valor' in 'field list'
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT SUM(`val...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`val...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`val...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`val...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(70): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-14 22:39:52 --> Undefined variable: nome_dos_meses
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:39:53 --> Undefined variable: nome_dos_meses
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:40:01 --> Undefined variable: faturamento_do_mes
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:40:01 --> Undefined variable: faturamento_do_mes
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:40:02 --> Undefined variable: faturamento_do_mes
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:40:02 --> Undefined variable: faturamento_do_mes
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 22:40:03 --> Undefined variable: faturamento_do_mes
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(87): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 23:06:55 --> Undefined property: App\Controllers\Inicio::$cliente_model
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 23:13:17 --> Unknown column 'data' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(94): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-14 23:25:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\food\painel\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('food/painel/ind...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Painel.php(68): view('food/painel/ind...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Painel->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 23:25:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Painel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Painel->transmitir()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 23:25:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\food\configs.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 257, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('food/configs', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Food.php(617): view('food/configs')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Food->configs()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 23:30:35 --> Undefined property: App\Controllers\Inicio::$contas_a_pagar_model
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 157, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 23:30:47 --> Unknown column 'data' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(160): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-14 23:31:10 --> Undefined property: App\Controllers\Inicio::$conta_a_receber_model
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 162, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 23:32:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\dashboard\index.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 164, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(171): view('dashboard/index')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

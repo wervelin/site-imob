@@ -1,0 +1,227 @@
+CRITICAL - 2020-10-06 11:37:09 --> Uncaught ErrorException: Array to string conversion in C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php:283
+Stack trace:
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 283, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(310): App\Controllers\NFCe->montaXML(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('3')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-06 11:37:20 --> Uncaught ErrorException: Array to string conversion in C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php:283
+Stack trace:
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 283, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(310): App\Controllers\NFCe->montaXML(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('3')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-06 11:38:35 --> Uncaught ErrorException: Array to string conversion in C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php:283
+Stack trace:
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 283, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(310): App\Controllers\NFCe->montaXML(Array, Array, Array, Array)
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('3')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-06 12:19:45 --> file_get_contents(C:\xampp\htdocs\nxgestao\writable\uploads/certificados/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 367, Array)
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(367): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(441): App\Controllers\NFCe->assinaXML(Array, '{"atualizacao":...', '<?xml version="...')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('2')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-06 14:48:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->edit('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 14:48:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Empresas.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Empresas->edit('1')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empresas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 15:03:38 --> Existem erros nas tags. Obtenha os erros com getErrors().
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(467): NFePHP\NFe\Make->getXML()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('4')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-06 15:04:28 --> Existem erros nas tags. Obtenha os erros com getErrors().
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(467): NFePHP\NFe\Make->getXML()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('4')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-06 15:04:57 --> Existem erros nas tags. Obtenha os erros com getErrors().
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(467): NFePHP\NFe\Make->getXML()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('4')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-06 15:05:08 --> Existem erros nas tags. Obtenha os erros com getErrors().
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(370): NFePHP\NFe\Make->monta()
+#1 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-nfe\src\Make.php(341): NFePHP\NFe\Make->montaNFe()
+#2 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(467): NFePHP\NFe\Make->getXML()
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('4')
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-06 15:12:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('4')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 15:13:51 --> Undefined variable: nova_nNFC
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(518): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 518, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 15:15:05 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`nfces`, CONSTRAINT `nfces_id_cliente_foreign` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id_cliente`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `nf...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nf...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nf...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nf...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(525): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('2')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-06 15:16:58 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`nfces`, CONSTRAINT `nfces_id_cliente_foreign` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id_cliente`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `nf...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nf...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nf...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nf...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\NFCe.php(525): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNotaDeSaida('2')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-06 15:24:38 --> Undefined index: id_nfce
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 15:25:47 --> Undefined variable: id_nfe
+#0 C:\xampp\htdocs\nxgestao\app\Views\vendas\show.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\nxgestao\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao\system\Common.php(1087): CodeIgniter\View\View->render('vendas/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(171): view('vendas/show', Array)
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('2')
+#5 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-06 15:38:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('3')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 15:40:55 --> Too few arguments to function App\Controllers\ImpressaoDANFe::imprimir(), 1 passed in C:\xampp\htdocs\nxgestao\system\CodeIgniter.php on line 914 and exactly 2 expected
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('3')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-06 15:40:58 --> Unknown column 'id_nfce' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `xml`\nFR...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `xml`\nFR...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `xml`\nFR...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `xml`\nFR...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(51): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('3', '2')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-06 15:43:12 --> Unknown column 'id_nfce' in 'where clause'
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `xml`\nFR...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `xml`\nFR...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `xml`\nFR...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `xml`\nFR...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(51): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('3', '2')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-06 15:44:04 --> O xml deve ser NF-e modelo 55.
+#0 C:\xampp\htdocs\nxgestao\app\ThirdParty\sped-da\vendor\nfephp-org\sped-da\src\NFe\Danfe.php(290): NFePHP\DA\NFe\Danfe->loadDoc('<?xml version="...')
+#1 C:\xampp\htdocs\nxgestao\app\Controllers\ImpressaoDANFe.php(61): NFePHP\DA\NFe\Danfe->__construct('<?xml version="...')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('3', '2')
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#4 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-06 15:44:38 --> Class 'App\Controllers\Danfce' not found
+#0 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\ImpressaoDANFe->imprimir('3', '2')
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImpressaoDANFe))
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-06 15:53:29 --> Undefined property: App\Controllers\Vendas::$config_nfe_nfce_model
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 146, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->show('2')
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 16:04:44 --> Undefined index: vendas
+#0 C:\xampp\htdocs\nxgestao\app\Controllers\Vendas.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Vendas->index()
+#2 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendas))
+#3 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-06 17:03:21 --> Cannot add or update a child row: a foreign key constraint fails (`nxgestao`.`vendas`, CONSTRAINT `vendas_id_contador_foreign` FOREIGN KEY (`id_contador`) REFERENCES `contadores` (`id_contador`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\nxgestao\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ve...')
+#1 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\nxgestao\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\nxgestao\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\nxgestao\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao\app\Controllers\Pdv.php(256): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(914): App\Controllers\Pdv->finalizaVenda('1')
+#7 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+#8 C:\xampp\htdocs\nxgestao\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

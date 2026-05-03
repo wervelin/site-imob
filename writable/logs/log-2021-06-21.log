@@ -1,0 +1,73 @@
+CRITICAL - 2021-06-21 15:29:27 --> Table 'sistema_saas.configuracoes' doesn't exist
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(57): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-21 15:29:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\cadastro_de_autorizacao_demo\create.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('cadastro_de_aut...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(62): view('cadastro_de_aut...', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->create()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-21 15:29:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(49): view('login/index', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-21 15:32:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\login\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Login.php(49): view('login/index', Array)
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-21 15:34:50 --> Call to undefined function App\Controllers\converteMoney()
+#0 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->store()
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-21 15:35:13 --> Undefined index: valor_da_mensalidade
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\CadastroDeAutorizacaoDemo.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\CadastroDeAutorizacaoDemo->store()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroDeAutorizacaoDemo))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 16:34:27 --> Cannot add or update a child row: a foreign key constraint fails (`sistema_saas`.`provisorio_add_produto_por_xml`, CONSTRAINT `provisorio_add_produto_por_xml_id_empresa_foreign` FOREIGN KEY (`id_empresa`) REFERENCES `empresas` (`id_empresa`) ON DELETE CASCAD)
+#0 C:\xampp\htdocs\nxgestao_saas\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\nxgestao_saas\system\Model.php(729): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(473): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->add_por_xml()
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#8 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-21 16:54:20 --> Call to undefined function App\Controllers\converteUSD()
+#0 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->altera_dados_do_produto_provisorio_cad_por_xml()
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,114 @@
+CRITICAL - 2023-09-29 19:23:48 --> Cannot use object of type App\Models\VendaModel as array
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-29 19:24:13 --> Unknown column 'date' in 'where clause'
+#0 C:\xampp\htdocs\saas-youtube.local\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT SUM(`val...')
+#1 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`val...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`val...')
+#3 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`val...', Array, false)
+#4 C:\xampp\htdocs\saas-youtube.local\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(116): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 19:24:24 --> Undefined variable: faturamento_por_meses
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 223, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(131): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-29 20:09:13 --> Undefined variable: somatorio_fat_diario
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 157, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(162): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-29 20:10:19 --> Undefined variable: somatorio_fat_diario
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 157, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(164): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-29 20:10:33 --> Undefined variable: qtde_dias_sem_fat
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(165): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-29 20:10:54 --> Undefined variable: qtde_dias_sem_fat
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(167): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-29 20:10:56 --> Undefined variable: qtde_dias_sem_fat
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\dashboard\index.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(167): view('dashboard/index')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-29 20:29:33 --> Unknown column 'data' in 'where clause'
+#0 C:\xampp\htdocs\saas-youtube.local\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\saas-youtube.local\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(172): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 20:29:46 --> Unknown column 'vencimento' in 'where clause'
+#0 C:\xampp\htdocs\saas-youtube.local\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT SUM(`val...')
+#1 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`val...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`val...')
+#3 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`val...', Array, false)
+#4 C:\xampp\htdocs\saas-youtube.local\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(155): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 20:30:33 --> Unknown column 'data_de_vencimento' in 'where clause'
+#0 C:\xampp\htdocs\saas-youtube.local\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT SUM(`val...')
+#1 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`val...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`val...')
+#3 C:\xampp\htdocs\saas-youtube.local\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`val...', Array, false)
+#4 C:\xampp\htdocs\saas-youtube.local\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(155): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

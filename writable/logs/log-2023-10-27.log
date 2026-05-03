@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-27 17:10:44 --> Table 'erp_startdevbr.configuracoes' doesn't exist
+#0 C:\xampp\htdocs\erp-startdevbr.local\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\erp-startdevbr.local\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\erp-startdevbr.local\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\erp-startdevbr.local\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\erp-startdevbr.local\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\erp-startdevbr.local\app\Controllers\Login.php(45): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\erp-startdevbr.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\erp-startdevbr.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

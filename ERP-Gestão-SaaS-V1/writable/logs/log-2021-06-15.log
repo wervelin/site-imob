@@ -1,0 +1,207 @@
+CRITICAL - 2021-06-15 00:00:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\food\configs.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 257, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('food/configs', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Food.php(617): view('food/configs')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Food->configs()
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Food))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 10:42:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(170): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 10:42:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(170): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 10:43:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(170): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 10:43:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(170): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 10:43:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(170): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 10:43:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\sidebar.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\app\Views\templates\header.php(55): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Inicio.php(170): view('templates/heade...', Array)
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 11:49:02 --> Undefined index: tipo
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\produtos\show.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(221): view('produtos/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 11:49:46 --> Undefined index: tipo_de_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\produtos\show.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(221): view('produtos/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 11:49:53 --> Undefined index: tipo_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\produtos\show.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(221): view('produtos/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 11:49:55 --> Undefined index: tipo_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\produtos\show.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(221): view('produtos/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 11:50:06 --> Undefined index: tipo_da_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\produtos\show.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(221): view('produtos/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 11:50:33 --> Undefined index: porcentagem_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\produtos\show.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 131, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Produtos.php(222): view('produtos/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 11:57:14 --> Call to undefined function App\Controllers\converteMoney()
+#0 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Produtos->store()
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 12:25:41 --> Undefined index: tipo_da_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\VendaRapida.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\VendaRapida->addProdutoDaVenda()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendaRapida))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 12:28:00 --> Undefined index: porecentagem_comissao
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\VendaRapida.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\VendaRapida->addProdutoDaVenda()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendaRapida))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 13:16:17 --> Undefined variable: id_vendedor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Vendedores.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 266, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Vendedores->relatorioDeVendasComissao()
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendedores))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 13:20:36 --> Undefined variable: id_vendedor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\vendedores\show.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('vendedores/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Vendedores.php(172): view('vendedores/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Vendedores->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendedores))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 13:20:44 --> Undefined variable: id_vendedor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\vendedores\show.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('vendedores/show', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Vendedores.php(172): view('vendedores/show')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Vendedores->show('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendedores))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-15 13:21:12 --> Undefined variable: id_vendedor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Vendedores.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 270, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Vendedores->relatorioDeVendasComissao('2')
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendedores))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 13:23:27 --> Undefined property: App\Controllers\Vendedores::$produto_da_venda_model
+#0 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Vendedores.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 276, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Vendedores->relatorioDeVendasComissao('2')
+#2 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendedores))
+#3 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 13:50:57 --> Undefined variable: id_vendedor
+#0 C:\xampp\htdocs\nxgestao_saas\app\Views\vendedores\relatorio_de_vendas_e_comissao.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\nxgestao_saas\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nxgestao_saas\system\Common.php(1087): CodeIgniter\View\View->render('vendedores/rela...', Array, true)
+#3 C:\xampp\htdocs\nxgestao_saas\app\Controllers\Vendedores.php(291): view('vendedores/rela...')
+#4 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(914): App\Controllers\Vendedores->relatorioDeVendasComissao('2')
+#5 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendedores))
+#6 C:\xampp\htdocs\nxgestao_saas\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nxgestao_saas\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

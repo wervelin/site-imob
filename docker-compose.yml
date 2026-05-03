@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: erp_imobiliario
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+      - ./writable:/var/www/html/writable
+    networks:
+      - erp_network
+      - proxy
+    ports:
+      - "8083:80"
+    depends_on:
+      - db
+    environment:
+      - CI_ENVIRONMENT=production
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.erp-imob.rule=Host(`erp.26121997.xyz`)"
+      - "traefik.http.routers.erp-imob.entrypoints=websecure"
+      - "traefik.http.routers.erp-imob.tls.certresolver=letsencrypt"
+      - "traefik.http.services.erp-imob.loadbalancer.server.port=80"
+      - "traefik.docker.network=proxy"
+
+  db:
+    image: mysql:8.0
+    container_name: erp_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: erp_startdevbr
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_USER: erp_user
+      MYSQL_PASSWORD: erp_pass123
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./banco_de_dados.sql:/docker-entrypoint-initdb.d/banco_de_dados.sql
+    networks:
+      - erp_network
+    ports:
+      - "3308:3306"
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: erp_phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: root123
+    ports:
+      - "8084:80"
+    networks:
+      - erp_network
+      - proxy
+    depends_on:
+      - db
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pma-erp.rule=Host(`pma-erp.26121997.xyz`)"
+      - "traefik.http.routers.pma-erp.entrypoints=websecure"
+      - "traefik.http.routers.pma-erp.tls.certresolver=letsencrypt"
+      - "traefik.http.services.pma-erp.loadbalancer.server.port=80"
+      - "traefik.docker.network=proxy"
+
+networks:
+  erp_network:
+    driver: bridge
+  proxy:
+    external: true
+
+volumes:
+  db_data:

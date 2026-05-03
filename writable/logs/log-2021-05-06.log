@@ -1,0 +1,92 @@
+CRITICAL - 2021-05-06 10:12:00 --> Unable to read certificate, get follow error: (error:23076071:PKCS12 routines:PKCS12_parse:mac verify failure)
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-common\src\Certificate.php(63): NFePHP\Common\Exception\CertificateException::unableToRead()
+#1 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1581): NFePHP\Common\Certificate::readPfx('0\x80\x02\x01\x030\x80\x06\t*\x86H\x86\xF7\r...', 'tiao1368')
+#2 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1698): App\Controllers\NFe->assinaXML(Array, '{"atualizacao":...', '<?xml version="...')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 10:12:11 --> Unable to read certificate, get follow error: (error:23076071:PKCS12 routines:PKCS12_parse:mac verify failure)
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\ThirdParty\sped-nfe\vendor\nfephp-org\sped-common\src\Certificate.php(63): NFePHP\Common\Exception\CertificateException::unableToRead()
+#1 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1581): NFePHP\Common\Certificate::readPfx('0\x80\x02\x01\x030\x80\x06\t*\x86H\x86\xF7\r...', 'tiao1368')
+#2 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1698): App\Controllers\NFe->assinaXML(Array, '{"atualizacao":...', '<?xml version="...')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-06 10:13:50 --> Call to undefined method App\Controllers\NFe::detalhaRejeicao()
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1701): App\Controllers\NFe->enviaLoteParaSefaz('<NFe xmlns="htt...')
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('1')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-06 10:50:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Views\login\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\Common.php(1087): CodeIgniter\View\View->render('login/index', Array, true)
+#3 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Login.php(46): view('login/index', Array)
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 11:03:38 --> Undefined index: CFOP_Externo
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Views\produtos\show.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Produtos.php(220): view('produtos/show')
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 11:20:51 --> Undefined index: CFOP_Externo
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Views\produtos\show.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\Common.php(1087): CodeIgniter\View\View->render('produtos/show', Array, true)
+#3 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Produtos.php(220): view('produtos/show')
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Produtos->show('2')
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#6 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-06 11:33:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Models\ControleDeAcessoModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\VendaRapida.php(71): App\Models\ControleDeAcessoModel->verificaPermissao('venda_rapida')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(886): App\Controllers\VendaRapida->__construct()
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-06 11:37:30 --> Undefined variable: dados_da_nota
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1687): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('2')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-06 11:41:37 --> Undefined index: CFOP_Externo
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFe.php(1687): App\Controllers\NFe->montaXml(Array, Array, Array, Array, Array)
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFe->emitirNotaDeSaida('3')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFe))
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-06 11:55:06 --> Call to undefined method App\Controllers\NFCe::assinaXML()
+#0 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNota('2')
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-06 11:58:53 --> Call to undefined method App\Controllers\NFCe::detalhaRejeicao()
+#0 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\NFCe.php(436): App\Controllers\NFCe->protocolaXmlNaSefaz('<?xml version="...', '<?xml version="...')
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\NFCe->emitirNota('2')
+#2 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NFCe))
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

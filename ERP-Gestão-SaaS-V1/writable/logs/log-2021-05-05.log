@@ -1,0 +1,9 @@
+CRITICAL - 2021-05-05 16:03:32 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\projeto-sistema-ml\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\projeto-sistema-ml\system\Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\projeto-sistema-ml\app\Controllers\Admin.php(38): view('templates/heade...')
+#3 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(914): App\Controllers\Admin->inicio()
+#4 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\projeto-sistema-ml\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projeto-sistema-ml\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

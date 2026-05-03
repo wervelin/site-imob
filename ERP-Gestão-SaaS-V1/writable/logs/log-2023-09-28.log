@@ -1,0 +1,173 @@
+CRITICAL - 2023-09-28 15:27:37 --> Class 'App\Models\NFCeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Pdv->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-28 18:23:02 --> Class 'App\Models\NFCeModel' not found
+#0 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(886): App\Controllers\Pdv->__construct()
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-28 18:27:52 --> Illegal string offset 'type'
+#0 C:\xampp\htdocs\saas-youtube.local\app\Views\templates\footer.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Common.php(1087): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Pedidos.php(92): view('templates/foote...')
+#4 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Pedidos->index()
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#6 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-28 18:28:04 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 455, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#3 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-28 18:28:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:28:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:28:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:28:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:28:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:28:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:28:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Painel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Painel->atualizaSenha()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Painel))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-28 18:29:29 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(111): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936568, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 18:29:29 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 455, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#3 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#5 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-28 18:29:47 --> unlink(C:\xampp\htdocs\saas-youtube.local\writable\debugbar/debugbar_1695936489.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936586, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 18:29:52 --> unlink(C:\xampp\htdocs\saas-youtube.local\writable\debugbar/debugbar_1695936499.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936590, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 18:29:55 --> unlink(C:\xampp\htdocs\saas-youtube.local\writable\debugbar/debugbar_1695936501.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936591, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 18:29:55 --> unlink(C:\xampp\htdocs\saas-youtube.local\writable\debugbar/debugbar_1695936538.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936593, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 18:29:55 --> unlink(C:\xampp\htdocs\saas-youtube.local\writable\debugbar/debugbar_1695936538.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936594, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 18:34:16 --> unlink(C:\xampp\htdocs\saas-youtube.local\writable\debugbar/debugbar_1695936586.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1695936852, 20)
+#3 C:\xampp\htdocs\saas-youtube.local\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\saas-youtube.local\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\saas-youtube.local\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-28 22:59:28 --> Undefined property: App\Controllers\Inicio::$cliente_model
+#0 C:\xampp\htdocs\saas-youtube.local\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(914): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\saas-youtube.local\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\saas-youtube.local\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
