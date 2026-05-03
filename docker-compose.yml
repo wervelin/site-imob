@@ -13,9 +13,8 @@ services:
       - ./writable:/var/www/html/writable
     networks:
       - erp_network
-      - proxy
     ports:
-      - "8083:80"
+      - "8089:80"
     depends_on:
       - db
     environment:
@@ -57,7 +56,6 @@ services:
       - "8084:80"
     networks:
       - erp_network
-      - proxy
     depends_on:
       - db
     labels:
@@ -71,8 +69,6 @@ services:
 networks:
   erp_network:
     driver: bridge
-  proxy:
-    external: true
-
+  
 volumes:
   db_data:
